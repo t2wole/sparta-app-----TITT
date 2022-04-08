@@ -1,26 +1,29 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, LogBox } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
-  LogBox.ignoreLogs(['Warning:...']);
-  
   return (
     <View style={styles.container}>
-      <Text style={styles.textStyle}>sparta seok!</Text>
-      <StatusBar style="dark" />
+      <View style={styles.containerOne}>
+
+      </View>
+      <View style={styles.containerTwo}>
+
+      </View>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    flex:1
   },
-  textStyle: {
-    color: 'blue'
+  containerOne: {
+    flex:1,
+    backgroundColor:"red"
+  },
+  containerTwo:{
+    flex:2,
+    backgroundColor:"yellow"
   }
 });
