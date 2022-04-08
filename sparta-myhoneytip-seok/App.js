@@ -9,10 +9,10 @@ export default function App() {
       </View>
       <View style={styles.containerTwo}>
         <View style={styles.innerOne}>
-
+         
         </View>
         <View style={styles.innerTwo}>
-
+          <Text>!!컨텐츠!!</Text>
         </View>
 
       </View>
@@ -39,6 +39,7 @@ const styles = StyleSheet.create({
   },
   innerTwo: {
     flex:4,
+    justifyContent:"flex-start",
     backgroundColor:"orange"
   }
 });
