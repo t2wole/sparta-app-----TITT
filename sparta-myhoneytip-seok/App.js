@@ -30,6 +30,7 @@ const styles = StyleSheet.create({
   },
   containerTwo:{
     flex:2,
+    flexDirection:"row",
     backgroundColor:"yellow"
   },
   innerOne: {
