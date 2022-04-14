@@ -7,8 +7,6 @@ export default function AboutPage(){
   return (
     <View style={styles.container}>
         <Text style={styles.title}>HI! 스파르타코딩 앱개발 반에 오신것을 환영합니다</Text>
-       
-        
         <View style={styles.textContainer}>
             <Image style={styles.aboutImage} source={{uri:aboutImage}} resizeMode={"cover"}/>
             <Text style={styles.desc01}>많은 내용을 간결하게 담아내려 노력했습니다!</Text>
